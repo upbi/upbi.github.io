@@ -1,4 +1,4 @@
-var website = ""; var link = ""; var social="";
+var website = ""; var link = ""; var social=""; var strlinks1=""; var strlinks2="";
 var loca = window.location.pathname;
 var wpath = loca.substring(0, loca.lastIndexOf("/"));
 var dName = wpath.substring(wpath.lastIndexOf(".")+1);
@@ -9,6 +9,12 @@ link += "<li><a href='" + website + "index.html'>الصفحة الرئيسية</
 link += "<li><a href='" + website + "reqactive.html'>طلب رمز تفعيل</a></li>";
 
 document.getElementById("links").innerHTML=link;
+
+strlinks1 += "<a href=''></a><br>";
+document.getElementById("links1").innerHTML=strlinks1;
+
+strlinks2 += "<a href=''></a><br>";
+document.getElementById("links2").innerHTML=strlinks2;
 
 //social += "<a href='https://codepen.io/'><i class='fa fa-codepen'></i></a>";
 //social += "<a href='https://www.linkedin.com/in/'><i class='fa fa-linkedin-square'></i></a>";

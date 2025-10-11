@@ -4,13 +4,17 @@ body {
 	margin: 0px;
 }
 
-.golden_line {
+.golden_line1 {
 	background-color: cyan; 
-	width: 60px; 
+	width: 64px; 
 	height: 5px; 
 }
 
-
+.golden_line2 {
+	background-color: cyan; 
+	width: 144px; 
+	height: 5px; 
+}
 
 header {
 	text-align: right;
