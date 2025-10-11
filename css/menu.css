@@ -1,6 +1,5 @@
 navbar {
-  position: fixed;
-  width: 100%;
+  position: absolute;
   z-index: 100;
 }
 
@@ -22,19 +21,19 @@ navbar li a {
 }
 
 a:link {
-  color: teal;
+  color: midnightblue;
 }
 
 a:visited {
-  color: tan;
+  color: saddlebrown;
 }
 
 a:hover {
-  color: aqua;
+  color: dodgerblue;
 }
 
 a:active {
-  color: lime;
+  color: blue;
 }
 
 navbar li a:hover,
@@ -127,6 +126,12 @@ navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
 
 @media (min-width: 768px) {
+  .navbar-a {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+}
  navbar li {
     top: 0;
     float: right;
