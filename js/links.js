@@ -6,7 +6,7 @@ if(dName!=="io"){var website = "../";}
 function funclinks(){
 link += "<li><a href='" + website + "index.html'>الصفحة الرئيسية</a></li>";
 
-link += "<li><a href='" + website + "reqactive.html'>طلب كود التفعيل</a></li>";
+link += "<li><a href='" + website + "reqactive.html'>طلب رمز تفعيل</a></li>";
 
 document.getElementById("links").innerHTML=link;
 
