@@ -18,6 +18,6 @@ document.getElementById("links").innerHTML=link;
 //social += "<a href=''><i class='fa fa-whatsapp'></i></a>";
 //social += "<a href='https://www.instagram.com/'><i class='fa fa-instagram'></i></a>";
 
-social += "<a href='reqactive.html'><i class='fa fa-envelope'></i></a>";
+social += "<a href='contact.html'><i class='fa fa-envelope'></i></a>";
 document.getElementById("sociallinks").innerHTML=social;
 }
