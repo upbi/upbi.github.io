@@ -25,20 +25,20 @@
            إرسال رسالة
          </header>
 	<div class="whitebox">
-<form action="https://formspree.io/f/xpwyyljp" method="POST">
+<form onsubmit="return validateRQ()" action="https://formspree.io/f/xpwyyljp" method="POST">
       <div>
           <label for="RQ">رمز الطلب:<br>
-              <input type="text" name="RQ">
+              <input type="text" name="RQ" id="RQ" placeholder="أدخل رمز الطلب" required>
           </label>
       </div>
       <div>
         <label for="name">الاسم:<br>
-		<input type="text" name="name">
+		<input type="text" name="name" required>
         </label>
       </div>
       <div>
         <label for="email">البريد الإلكتروني:<br>
-		<input type="email" name="_replyto">
+		<input type="email" name="_replyto" required>
         </label>
       </div>
       <div>
@@ -58,5 +58,16 @@
 		</div>
          </footer>
 </div>
+
+  <script>
+    function validateRQ() {
+      const input = document.getElementById("RQ").value.trim();
+      if (!input.startsWith("RQ")) {
+        alert("رمز طلب التفعيل غير صحيح");
+        return false;
+}
+      return true;
+}
+  </script>
    </body>
 </html>
