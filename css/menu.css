@@ -20,19 +20,19 @@ navbar li a {
   text-decoration: none;
 }
 
-a:link {
+section a:link {
   color: midnightblue;
 }
 
-a:visited {
+section a:visited {
   color: saddlebrown;
 }
 
-a:hover {
+section a:hover {
   color: dodgerblue;
 }
 
-a:active {
+section a:active {
   color: blue;
 }
 

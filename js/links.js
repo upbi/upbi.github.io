@@ -17,7 +17,9 @@ document.getElementById("links").innerHTML=link;
 //social += "<a href='https://www.youtube.com/'><i class='fa fa-youtube'></i></a>";
 //social += "<a href=''><i class='fa fa-whatsapp'></i></a>";
 //social += "<a href='https://www.instagram.com/'><i class='fa fa-instagram'></i></a>";
-
-social += "<a href='contact.html'><i class='fa fa-envelope'></i></a>";
+//social += "<a href='#.html'><i class='fa fa-exclamation'></i></a>";
+//social += "<a href='contact.html'><i class='fa fa-envelope'></i></a>";
+//social += "<a href='contact.html'><i class='fa fa-question'></i></a>";
+social += "<a href='contact.html'><i class='fa fa-lightbulb-o'></i></a>";
 document.getElementById("sociallinks").innerHTML=social;
 }

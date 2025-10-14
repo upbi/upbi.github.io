@@ -44,12 +44,35 @@ section {
 }
 
 footer {
-	text-align: center;
+	text-align: left;
 	margin-top: 10px;
-	width: calc(100% - 2px);
+	width: calc(100% - 10px);
 	height: 100%;
 }
 
 textarea {
 	width: 100%;
+}
+
+.hr-shadow {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sociallinks a:link {
+  color: lightgrey;
+}
+
+#sociallinks a:visited {
+  color: lightgrey;
+}
+
+#sociallinks a:hover {
+  color: lightgrey;
+}
+
+#sociallinks a:active {
+  color: lightgrey;
 }
