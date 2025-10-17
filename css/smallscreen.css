@@ -42,10 +42,12 @@ section {
 }
 
 footer {
-	text-align: left;
+	text-align: center;
 	margin-top: 10px;
 	width: calc(100% - 2px);
 	height: 100%;
+	color: lightgray;
+	font-size: 12px;	
 }
 
 textarea {

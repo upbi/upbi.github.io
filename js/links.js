@@ -1,4 +1,4 @@
-var website = ""; var link = ""; var social=""; var st
+var website = ""; var link = ""; var social="Copyright © 2025 AA Dev. All rights reserved. "; var st
 var loca = window.location.pathname;
 var wpath = loca.substring(0, loca.lastIndexOf("/"));
 var dName = wpath.substring(wpath.lastIndexOf(".")+1);
@@ -20,6 +20,6 @@ document.getElementById("links").innerHTML=link;
 //social += "<a href='#.html'><i class='fa fa-exclamation'></i></a>";
 //social += "<a href='contact.html'><i class='fa fa-envelope'></i></a>";
 //social += "<a href='contact.html'><i class='fa fa-question'></i></a>";
-social += "<a href='contact.html'><i class='fa fa-lightbulb-o'></i></a>";
+social += "<a href='contact.html'><i class='fa fa-lightbulb-o'></i></a> ";
 document.getElementById("sociallinks").innerHTML=social;
 }
