@@ -30,6 +30,10 @@ section {
 	width: 100%;
 }
 
+.content div{
+	width: 90%;	
+}
+
 .whitebox {
 	position: relative;
 	text-align: center;
